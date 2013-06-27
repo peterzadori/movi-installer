@@ -1,11 +1,11 @@
 {
 	"name": "peterzadori/movi-installer",
 	"type": "composer-installer",
-	"require-dev": {
-		"composer/composer": "dev-master"
-	},
+	"minimum-stability":"dev",
 	"autoload": {
-		"psr-0": {"movi\\Composer": "src/"}
+		"psr-0": {
+			"movi\\Composer": "src/"
+		}
 	},
 	"extra": {
 		"class": "movi\\Composer\\PackageInstaller"
