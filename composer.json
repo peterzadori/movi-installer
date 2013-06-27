@@ -1,7 +1,7 @@
 {
 	"name": "peterzadori/movi-installer",
 	"type": "composer-installer",
-	"require": {
+	"require-dev": {
 		"composer/composer": "dev-master"
 	},
 	"autoload": {
