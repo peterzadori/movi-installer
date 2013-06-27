@@ -5,7 +5,7 @@
 		"composer/composer": "dev-master"
 	},
 	"autoload": {
-		"classmap": ["src/"]
+		"psr-0": {"movi\\Composer": "src/"}
 	},
 	"extra": {
 		"class": "movi\\Composer\\PackageInstaller"
