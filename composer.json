@@ -1,0 +1,10 @@
+{
+	"name": "peterzadori/movi-installer",
+	"type": "composer-installer",
+	"require": {
+		"composer/composer": "dev-master"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
